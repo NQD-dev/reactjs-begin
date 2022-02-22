@@ -1,16 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import Toggle from './Toggle';
 import reportWebVitals from './reportWebVitals';
-import LoggingButton from './LoggingButton.js';
+import Form from './Form.js'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
-    <Toggle />
-    <LoggingButton />
+    <Form />
   </React.StrictMode>,
   document.getElementById('root')
 );
