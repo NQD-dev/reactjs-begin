@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Form from './Form.js'
+import Routing from './Routing.js'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Form />
+    <Routing />
   </React.StrictMode>,
   document.getElementById('root')
 );
